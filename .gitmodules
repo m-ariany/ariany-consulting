@@ -1,0 +1,9 @@
+[submodule "poison"]
+	path = poison
+	url = https://github.com/lukeorth/poison.git
+[submodule "themes/enchanted-lowkey"]
+	path = themes/enchanted-lowkey
+	url = https://github.com/nixentric/Lowkey-Hugo-Theme.git
+[submodule "themes/gokarna"]
+	path = themes/gokarna
+	url = https://github.com/526avijitgupta/gokarna.git
