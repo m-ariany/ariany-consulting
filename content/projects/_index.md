@@ -24,7 +24,7 @@ within the product.
 - Provided support to numerous stakeholders throughout the project.
 
 **Stack:**
-Go(lang), WebSocket, OpenSearch, LocalStack, Redis, Prometheus, Grafana, AWS S3, Kubernetes
+`Go(lang)`, `WebSocket`, `OpenSearch`, `LocalStack`, `Redis`, `Prometheus`, `Grafana`, `AWS S3`, `Kubernetes`
 
 
 
@@ -64,7 +64,7 @@ Java.
 Grafana.
 
 **Stack:**
-Cloud Foundry, Node.js, Java, Prometheus, Java, API gateway, Redis, Postgres
+`Cloud Foundry`, `Node.js`, `Java`, `Prometheus`, `API gateway`, `Redis`, `Postgres`
 
 
 
@@ -87,7 +87,7 @@ and update policies.
 system recovery.
 
 **Stack:**
-HashiCorp (Terraform, Vault, Consul), Ansible, AWS (VPC, EC2, S3, Glacier, Cloud Watch, API Gateway), Cloud Foundry, Python, Go(lang), Bash</td>
+`HashiCorp (Terraform, Vault, Consul)`, `Ansible`, `AWS (VPC, EC2, S3, Glacier, Cloud Watch, API Gateway)`, `Cloud Foundry`, `Python`, `Go(lang)`, `Bash`</td>
     
     
 
@@ -108,7 +108,7 @@ To speed up analytical query responses in our analytics platform, we created an 
 - Monitored service performance using the Prometheus framework.
 
 **Stack:**
-Go(lang), Redis, MongoDB, Kubernetes, Prometheus
+`Go(lang)`, `Redis`, `MongoDB`, `Kubernetes`, `Prometheus`
 
 
 

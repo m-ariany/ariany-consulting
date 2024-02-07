@@ -15,7 +15,7 @@ Handschuhsheimer landstr. 45a,
 ### Kontakt
 
 Telefon: +49(0)176/21405144  
-E-Mail: mail@ariany.de
+E-Mail: contact@ariany.de
 
 ### Umsatzsteuer-ID:
 Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: XXXXXXXX
@@ -134,7 +134,7 @@ Handschuhsheimer landstr. 45a
 69121 Heidelberg  
 Deutschland  
 Tel.: +49(0)17621405144  
-E-Mail: mail@ariany.de  
+E-Mail: contact@ariany.de  
 Website: www.ariany.de
 
 
