@@ -50,4 +50,4 @@ theme = 'gokarna'
   description = "Freelance Software and DevOps Engineer Focusing on Architecture, Backend, DevOps, and AWS."
   accentColor = "#FF4D4D"
   ShowBackToTopButton = true
-  metaKeywords = ["Milad", "Ariany", "Freelancer", "Software", "Cloud", "DevOps", "AWS", "Go", "Golang", "Kubernetes"]    
+  metaKeywords = ["Microservices", "Distributed Systems", "Cloud- native Development", "Golang", "Go", "Node.js", "Python", "Java", "DevOps", "IaC", "AWS", "HashiCorp", "Kubernetes", "Prometheus", "Grafana", "Terraform", "Ansible"]    
