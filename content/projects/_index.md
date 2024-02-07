@@ -26,7 +26,7 @@ within the product.
 **Stack:**
 `Go(lang)`, `WebSocket`, `OpenSearch`, `LocalStack`, `Redis`, `Prometheus`, `Grafana`, `AWS S3`, `Kubernetes`
 
-
+---
 
 ### Elevating SAP Analytics Cloud’s SLA from 99.9% to 99.99% – 03.2022 – 11.2022
 
@@ -44,8 +44,7 @@ To enhance the availability of the SAP Analytics Cloud product, it was necessary
 concepts.
 - Defining a project timeline, budget, and the required number of team members (headcount).
 
-
-
+---
 
 ### Enablement of SAP Analytics Cloud’s SaaS offering – 01.2021 – 03.2022
 
@@ -66,7 +65,7 @@ Grafana.
 **Stack:**
 `Cloud Foundry`, `Node.js`, `Java`, `Prometheus`, `API gateway`, `Redis`, `Postgres`
 
-
+---
 
 ### Developed cloud infra. for the SAP HANA-as-a-Service – 04.2019 – 01.2021
 
@@ -89,9 +88,7 @@ system recovery.
 **Stack:**
 `HashiCorp (Terraform, Vault, Consul)`, `Ansible`, `AWS (VPC, EC2, S3, Glacier, Cloud Watch, API Gateway)`, `Cloud Foundry`, `Python`, `Go(lang)`, `Bash`</td>
     
-    
-
-
+---
 
 ### Development of an elastic caching microservice – 07.2018 – 04.2019
 
@@ -110,6 +107,4 @@ To speed up analytical query responses in our analytics platform, we created an 
 **Stack:**
 `Go(lang)`, `Redis`, `MongoDB`, `Kubernetes`, `Prometheus`
 
-
-
-
+---
