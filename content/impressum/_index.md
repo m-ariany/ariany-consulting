@@ -18,7 +18,7 @@ Telefon: +49(0)176/21405144
 E-Mail: contact@ariany.de
 
 ### Umsatzsteuer-ID:
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: XXXXXXXX
+Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: 58/731/290965
 
 ### Angaben zur Berufshaftpflichtversicherung
 Versicherer:  
