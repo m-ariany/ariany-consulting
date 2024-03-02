@@ -25,7 +25,7 @@ within the product.
 - Provided support to numerous stakeholders throughout the project.
 
 **Stack:**
-`Go(lang)`, `WebSocket`, `OpenSearch`, `LocalStack`, `Redis`, `Prometheus`, `Grafana`, `AWS S3`, `Kubernetes`
+`Go(lang)`, `Kubernetes` `WebSocket`, `OpenSearch`, `LocalStack`, `Redis`, `Operator & Controller`, `Prometheus`, `Grafana`, `AWS S3`
 
 ---
 
