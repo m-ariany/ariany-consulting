@@ -17,6 +17,7 @@ A custom orchestration system, inspired by Kubernetes, was created to streamline
 - Involved in architecture design of the system.
 - Actively contributed to the development of multiple components,
 including the API Server and Controller Manager.
+- Development of multiple Kubernetes operators for essential core functionalities of the system.
 - Designed and developed client SDKs to facilitate controller development
 by various development teams.
 - Integrated Prometheus as the primary tool for monitoring metrics
