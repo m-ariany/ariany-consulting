@@ -43,6 +43,8 @@ As part of an ecommerce startup, an AI chatbot for Amazon's online shop was deve
 
 ---
 
+### Development of a distributed orchestration system – 02.2022 – 03.2023
+
 **Role:**  
 Senior Software Developer
 
