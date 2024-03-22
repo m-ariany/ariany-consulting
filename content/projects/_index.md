@@ -5,7 +5,43 @@ description: "As a freelance software and DevOps engineer based in Heidelberg, I
 type: "page"
 ---
 
-### Development of a distributed orchestration system – 11.2022 – 02.2024
+### Development of an AI Language Tutor – 10.2023 – 02.2024
+
+**Role:**  
+System Architect
+
+**Description:**  
+In developing an AI language tutor using LLMs (Azure OpenAI) challenges like open-ended conversation handling, session management, and student assessment needed to be addressed. The tutor adapts to individual learning styles, tracks progress, and provides personalized feedback. This approach enables a more engaging and efficient language learning experience, setting a new standard for educational technology.
+
+**Responsibilities:**
+- Design the over architecture using Azure OpenAI, Azure Speech Services, MongoDB and Redis as main components.
+- Involved in prompt engineering to adjust teaching strategies dynamically.
+- Solving complex challenges in regards to session management by AI keeping the flow of the session smooth and human-like.
+- Ensure system scalability and reliability to handle varied learning styles and feedback mechanisms.
+
+**Stack:**
+`Azure OpenAI`, `Azure Speech`, `MongoDB`, `Redis`, `Kubernetes`
+
+---
+
+### Development of AI Chatbot using OpenAI APIs – 04.2023 – 10.2023
+
+**Role:**  
+Senior Software Developer
+
+**Description:**  
+As part of an ecommerce startup, an AI chatbot for Amazon's online shop was developed, helping customers to find the products by interacting with the chatbot instead of traditional browsing methods such as reading the products’ listing page, reviews, and Q&As. Utilizing OpenAI's API, the chatbot harnesses text embeddings and RAG systems to understand nuanced user queries better and to provide accurate and personalized product recommendations. This innovative approach streamlines the shopping experience, making it more efficient and user-friendly.
+
+**Responsibilities:**
+- Involved in architecture design of the system.
+- Actively contributed to the development of multiple components.
+- Prompt engineering to get the best results for each task.
+- Development of test suites to monitor performance of the models.
+
+**Stack:**
+`Go(lang)`, `Python`, `OpenAI`, `LangChain`, `Kubernetes`, `RAG`, `Firebase Firestore`
+
+---
 
 **Role:**  
 Senior Software Developer
@@ -29,7 +65,7 @@ within the product.
 
 ---
 
-### Elevating SAP Analytics Cloud’s SLA from 99.9% to 99.99% – 03.2022 – 11.2022
+### Elevating SAP Analytics Cloud’s SLA from 99.9% to 99.99% – 08.2021 – 02.2022
 
 **Role:**
 Technical Lead
@@ -47,7 +83,7 @@ concepts.
 
 ---
 
-### Enablement of SAP Analytics Cloud’s SaaS offering – 01.2021 – 03.2022
+### Enablement of SAP Analytics Cloud’s SaaS offering – 09.2020 – 07.2021
 
 **Role:**
 Senior Cloud Engineer
@@ -68,7 +104,7 @@ Grafana.
 
 ---
 
-### Developed cloud infra. for the SAP HANA-as-a-Service – 04.2019 – 01.2021
+### Developed cloud infra. for the SAP HANA-as-a-Service – 04.2019 – 08.2020
 
 
 **Role:**
