@@ -1,44 +1,30 @@
 ---
 title: "About"
 draft: false
-description: "As a freelance software and DevOps engineer based in Heidelberg, I offer tailor-made software solutions adapted to your requirements. My current focus lies on software architecture, backend development, data engineering, DevOps, and AWS."
+description: "As a freelance software and DevOps engineer based in Heidelberg, I deliver tailor-made software solutions optimized for modern cloud-native architectures. I specialize in GenAI and LLM platforms, software architecture, backend and distributed systems, data engineering, DevOps, and cloud infrastructure."
 type: "page"
 ---
 
-As a freelance software and DevOps engineer based in Heidelberg, I offer tailor-made software solutions adapted to your requirements. My current focus lies on software architecture, backend development, data engineering, DevOps, and AWS.
+As a freelance software and DevOps engineer based in Heidelberg, I focus on **GenAI and LLM platform engineering**, delivering solutions for AI-driven applications, including model routing, RAG pipelines, fine-tuning, embeddings, moderation workflows, and observability for production AI workloads. I also design and implement **cloud-native architectures, distributed systems, and DevOps workflows** to ensure scalable, reliable, and secure software solutions.
 
-### Paradigms and Methods
-- Microservices
-- Backend Development
-- Distributed Systems
-- Cloud- native Development
-- Kubernetes-native Development
-- Data Engineering
-- DevOps
-- CI/CD
-- Infrastructure as Code (Terraform)
-- AWS (API Gateway, VPC, CloudWatch, EKS, S3, Glacier, Polly, SQS, SNS, IAM)
-- Cloud Foundry
+### Key Expertise Areas
+- **GenAI / LLM Platforms:** Azure OpenAI APIs (chat, embeddings, moderation, fine-tuning), vLLM, RAG pipelines, model routing, multi-tenant AI deployments, observability for AI workloads (Prometheus, Grafana, OpenTelemetry)
+- **Cloud-Native & Distributed Systems:** Microservices, Kubernetes-native development, backend development, distributed systems
+- **Data Engineering & Storage:** PostgreSQL, MongoDB, Redis, data pipelines
+- **DevOps & CI/CD:** Jenkins, ArgoCD, GitOps, canary rollouts, containerization, orchestration
+- **Infrastructure as Code & Automation:** Terraform, Crossplane, Ansible, HashiCorp tools (Vault, Consul)
+- **Observability & Monitoring:** Prometheus, Grafana, OpenTelemetry, tracing/logging
+- **Cloud Platforms & Services:** AWS (API Gateway, VPC, CloudWatch, EKS, S3, Glacier, Polly, SQS, SNS, IAM), Cloud Foundry
 
 ### Programming Languages (ordered by proficiency)
-- Go(lang)
-- Python
-- Nodejs
-- Java Spring Boot
+- Go(lang)  
+- Python  
+- Node.js  
+- Java (Spring Boot)  
 
-### DevOps Toolchain
-- Ansible
-- HashiCorp (Terraform, Vault, Consul)
-- Jenkins
-- Gihub 
-- Gitlab
-- Docker
-- Kubernetes
-- Helm
-- K9s
-- Prometheus
-- Grafana
-
-### Cloud Platforms
-- AWS
-- Cloud Foundry
+### DevOps & Toolchain
+- **Containerization & Orchestration:** Docker, Kubernetes, Helm, Operators, K9s  
+- **CI/CD & Deployment:** Jenkins, ArgoCD, GitOps, canary rollout  
+- **Infrastructure Automation:** Terraform, Crossplane, Ansible, HashiCorp (Vault, Consul)  
+- **Observability & Monitoring:** Prometheus, Grafana, OpenTelemetry, Promitor  
+- **Version Control:** GitHub, GitLab
