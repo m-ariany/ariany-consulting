@@ -5,10 +5,50 @@ description: "As a freelance software and DevOps engineer based in Heidelberg, I
 type: "page"
 ---
 
+### Observability & Monitoring of GenAI Infra – 03.2023 - 11.2025
+
+**Role:**
+GenAI Engineer
+
+**Description:**
+Built a comprehensive observability and telemetry framework for hosted and proxied LLMs in enterprise production environments. Enabled teams to monitor performance, usage, and reliability of AI models at scale, while ensuring insights into token consumption, latency, and error patterns. Integrated tracing, logging, and metrics across multi-cloud deployments to support proactive incident management and optimization of AI workloads.
+
+**Responsibilities:**
+
+* Designed and implemented tracing, logging, and metrics pipelines for LLM APIs using OpenTelemetry and Prometheus.
+* Built dashboards and alerts with Grafana and Promitor for real-time model performance monitoring.
+* Instrumented model endpoints to track latency, throughput, token usage, and error rates.
+* Collaborated with platform and security teams to ensure observability aligned with compliance and data governance policies.
+
+**Stack:**
+`Kubernetes`, `OpenTelemetry`, `Prometheus`, `Grafana`, `Promitor`
+
+---
+
+### GenAI Platform Engineering – 03.2023 - 11.2025
+
+**Role:**
+GenAI Engineer
+
+**Description:**
+Developed a scalable GenAI platform to enable enterprise applications with LLM capabilities, including RAG pipelines, model routing, fine-tuning, and moderation workflows. Provided tooling, SDKs, and automation to streamline AI integration for product teams while ensuring cost-efficient and secure deployments.
+
+**Responsibilities:**
+
+* Designed and implemented RAG pipelines and model routing strategies for multi-tenant AI services.
+* Developed fine-tuning, embeddings, and moderation workflows using Azure OpenAI APIs.
+* Automated deployments, canary rollouts, and CI/CD for GenAI workloads using ArgoCD, Jenkins, and GitOps practices.
+* Monitored AI services with integrated telemetry, alerting, and logging to maintain reliability at scale.
+
+**Stack:**
+`Azure OpenAI`, `RAG`, `Python`, `ArgoCD`, `Jenkins`, `Go`
+
+---
+
 ### Development of an AI Language Tutor – 10.2023 – 02.2024
 
 **Role:**  
-System Architect
+Technical Co-Founder
 
 **Description:**  
 In developing an AI language tutor using LLMs (Azure OpenAI) challenges like open-ended conversation handling, session management, and student assessment needed to be addressed. The tutor adapts to individual learning styles, tracks progress, and provides personalized feedback. This approach enables a more engaging and efficient language learning experience, setting a new standard for educational technology.
@@ -27,7 +67,7 @@ In developing an AI language tutor using LLMs (Azure OpenAI) challenges like ope
 ### Development of AI Chatbot using OpenAI APIs – 04.2023 – 10.2023
 
 **Role:**  
-Senior Software Developer
+Technical Co-Founder
 
 **Description:**  
 As part of an ecommerce startup, an AI chatbot for Amazon's online shop was developed, helping customers to find the products by interacting with the chatbot instead of traditional browsing methods such as reading the products’ listing page, reviews, and Q&As. Utilizing OpenAI's API, the chatbot harnesses text embeddings and RAG systems to understand nuanced user queries better and to provide accurate and personalized product recommendations. This innovative approach streamlines the shopping experience, making it more efficient and user-friendly.
