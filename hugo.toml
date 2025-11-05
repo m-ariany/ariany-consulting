@@ -47,7 +47,7 @@ theme = 'gokarna'
   avatarURL = "/images/profile.jpg"
   # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
   avatarSize = "size-l"
-  description = "Freelance Software and DevOps Engineer Focusing on Architecture, Backend, DevOps, and AWS."
+  description = "Freelance Software & GenAI Engineer | Specializing in LLM Platforms, Cloud-Native Architecture, Backend Development, and DevOps."
   accentColor = "#FF4D4D"
   ShowBackToTopButton = true
   metaKeywords = ["Microservices", "Distributed Systems", "Cloud- native Development", "Golang", "Go", "Node.js", "Python", "Java", "DevOps", "IaC", "AWS", "HashiCorp", "Kubernetes", "Prometheus", "Grafana", "Terraform", "Ansible"]    
