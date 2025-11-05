@@ -1,1 +1,1 @@
-`Microservices` `Distributed Systems` `Cloud-native Development` `Go(lang)` `Node.js` `Python` `Java` `DevOps` `IaC` `AWS` `HashiCorp` `Kubernetes` `Prometheus`
+`Azure OpenAI` `GenAI` `RAG` `Model Hosting` `Cloud-native Development` `Go(lang)` `Python` `GitOps` `IaC` `AWS` `Kubernetes` `Prometheus`
