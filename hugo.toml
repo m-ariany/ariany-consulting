@@ -4,50 +4,80 @@ title = 'Ariany IT Consulting'
 theme = 'gokarna'
 
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    url = "/"
-    name = "Home"
-    weight = 1
-    pre = "<span data-feather='home'></span>"
-  [[menu.main]]
-    identifier = "projects"
-    url = "/projects/"
-    name = "Projects"
-    weight = 2
-    pre = "<span data-feather='archive'></span>"
-  [[menu.main]]
-    identifier = "about"
-    url = "/about/"
-    name = "About"
-    weight = 3
-    pre = "<span data-feather='user'></span>"
-  [[menu.main]]
-    identifier = "impressum"
-    url = "/impressum/"
-    name = "Impressum"
-    weight = 4
-    pre = "<span data-feather='shield'></span>"
-  [[menu.main]]
-    identifier = "linkedin"
-    url = "https://www.linkedin.com/in/milad-ariany/"
-    weight = 5
-    pre = "<span data-feather='linkedin'></span>"
-  [[menu.main]]
-    identifier = "email"
-    url = "mailto:contact@ariany.de"
-    weight = 6
-    pre = "<span data-feather='mail'></span>"
+[[menu.main]]
+identifier = "home"
+url = "/"
+name = "Home"
+weight = 1
+pre = "<span data-feather='home'></span>"
+[[menu.main]]
+identifier = "projects"
+url = "/projects/"
+name = "Projects"
+weight = 2
+pre = "<span data-feather='archive'></span>"
+[[menu.main]]
+identifier = "posts"
+url = "/posts/"
+name = "Posts"
+weight = 3
+pre = "<span data-feather='book'></span>"
+[[menu.main]]
+identifier = "about"
+url = "/about/"
+name = "About"
+weight = 4
+pre = "<span data-feather='user'></span>"
+[[menu.main]]
+identifier = "impressum"
+url = "/impressum/"
+name = "Impressum"
+weight = 5
+pre = "<span data-feather='shield'></span>"
+[[menu.main]]
+identifier = "linkedin"
+url = "https://www.linkedin.com/in/milad-ariany/"
+weight = 6
+pre = "<span data-feather='linkedin'></span>"
+[[menu.main]]
+identifier = "email"
+url = "mailto:contact@ariany.de"
+weight = 7
+pre = "<span data-feather='mail'></span>"
+[[menu.main]]
+identifier = "medium"
+url = "https://medium.com/@milad.arianny"
+weight = 8
+pre = "<span data-feather='book-open'></span>"
 
 [params]
-  socialIcons = [
-      {name = "linkedin", url = "https://www.linkedin.com/in/milad-ariany"},
-      {name = "email", url = "mailto:contact@ariany.de"},
-    ]
-  avatarURL = "/images/profile.jpg"
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-l"
-  description = "Freelance Software & GenAI Engineer | Specializing in LLM Platforms, Cloud-Native Architecture, Backend Development, and DevOps."
-  accentColor = "#FF4D4D"
-  ShowBackToTopButton = true
-  metaKeywords = ["Microservices", "Distributed Systems", "Cloud- native Development", "Golang", "Go", "Node.js", "Python", "Java", "DevOps", "IaC", "AWS", "HashiCorp", "Kubernetes", "Prometheus", "Grafana", "Terraform", "Ansible"]    
+socialIcons = [
+  { name = "linkedin", url = "https://www.linkedin.com/in/milad-ariany" },
+  { name = "email", url = "mailto:contact@ariany.de" },
+  { name = "medium", url = "https://medium.com/@milad.arianny" },
+]
+avatarURL = "/images/profile.jpg"
+# Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+avatarSize = "size-l"
+description = "Freelance Software & DevOps Engineer | LLM Platforms, Cloud, Backend, DevOps"
+accentColor = "#FF4D4D"
+ShowBackToTopButton = true
+metaKeywords = [
+  "Microservices",
+  "Distributed Systems",
+  "Cloud- native Development",
+  "Golang",
+  "Go",
+  "Node.js",
+  "Python",
+  "Java",
+  "DevOps",
+  "IaC",
+  "AWS",
+  "HashiCorp",
+  "Kubernetes",
+  "Prometheus",
+  "Grafana",
+  "Terraform",
+  "Ansible",
+]
