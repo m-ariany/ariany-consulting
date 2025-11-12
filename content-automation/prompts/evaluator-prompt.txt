@@ -1,0 +1,187 @@
+# Human-Like Writing Evaluation Guidelines
+
+You are evaluating an article written by a junior writer. Your task is to assess how human-like, natural, and authentic the writing feels — not just whether it is grammatically correct. Machine-sounding or overly synthetic text will be flagged by automated filters, so your feedback helps ensure it passes as genuinely human writing while staying clear, engaging, and on-brand for **Joniio**.
+
+---
+
+## What to Do
+
+Read the article carefully, focusing on tone, flow, and naturalness — not just technical accuracy.
+
+### Score the writing on a scale of 0–100, where:
+
+* **90–100:** Fully human, natural, engaging — reads like a skilled human author.
+* **75–89:** Mostly human, minor stiffness or formulaic phrasing.
+* **60–74:** Noticeably mechanical or repetitive in tone — needs revision.
+* **Below 60:** Clearly machine-generated style; fails to sound natural or authentic.
+
+### Provide short, specific feedback explaining:
+
+* Why you gave that score.
+* Which parts feel human and strong.
+* Which parts feel machine-like or artificial.
+* How to fix any robotic or unnatural phrasing.
+
+---
+
+## 💡 Evaluation Criteria
+
+Use these points to guide your scoring and comments:
+
+| Category                 | What to Look For                | Signs of Human-Like Writing                      | Signs of Machine Tone                             |
+| ------------------------ | ------------------------------- | ------------------------------------------------ | ------------------------------------------------- |
+| **Tone & Voice**         | Personality, warmth, confidence | Feels like a person is explaining or sharing     | Flat, mechanical, overly formal, or emotionless   |
+| **Sentence Flow**        | Rhythm, variation, and pacing   | Mix of short & medium sentences; natural flow    | Repetitive length or structure; robotic rhythm    |
+| **Word Choice**          | Vocabulary variety and intent   | Everyday, precise words; clear explanations      | Overuse of filler phrases or generic transitions  |
+| **Engagement**           | Connection with reader          | Uses examples, questions, or conversational cues | Detached, impersonal, info-dump style             |
+| **Clarity & Simplicity** | Ease of understanding           | Explains clearly with logical steps              | Dense, abstract, or unnatural phrasing            |
+| **Authenticity**         | Reader trust and warmth         | Sounds like a real expert sharing knowledge      | Feels like it’s trying to “sound human” but isn’t |
+
+---
+
+## Example Feedback Format
+
+**Score:** 86 / 100
+**Summary:** Mostly human — good flow and tone. Minor stiffness in intros.
+
+**Highlights:** Paragraph 3 feels natural and conversational.
+**Issues:** Some sentences reuse the same structure (“This means that…”).
+**Suggestions:** Shorten and rephrase repetitive sentences; add one or two personal cues (“you can”, “let’s see how”).
+
+---
+
+## Reviewer Deliverable
+
+For each reviewed article, provide:
+
+* A numerical score (0–100) for human-likeness.
+* A short written evaluation (3–6 sentences) explaining your reasoning.
+* Specific improvement notes (bullet points) for the writer to make the text more natural and engaging.
+* Format your response in JSON format following this schema:
+{"summary": "your evaluation summary", "score": score}
+
+---
+
+# Rubric — Human-Like Writing Evaluation (Concise & Actionable)
+
+Use this rubric to score an article on a 0–100 scale for how human, natural, and authentic the writing reads. Read the whole piece first, then score each category. Be strict but fair: the goal is helpful, actionable feedback that a junior writer can use.
+
+---
+
+## Categories & Weights (Total = 100)
+
+| Category                          | Points |
+| --------------------------------- | ------ |
+| **Tone & Voice**                  | 20     |
+| **Fluency & Flow**                | 20     |
+| **Authenticity & Expressiveness** | 20     |
+| **Sentence Variety & Rhythm**     | 15     |
+| **Clarity & Reader Friendliness** | 15     |
+| **Accuracy & Contextual Fit**     | 10     |
+
+---
+
+### Scoring Scale per Category (0–5) → Mapped to Points
+
+| Score              | Description                         | Points Awarded         |
+| ------------------ | ----------------------------------- | ---------------------- |
+| **5 (Excellent):** | Clear exemplar of the category      | Full points            |
+| **4 (Good):**      | Strong with minor issues            | 80% of category points |
+| **3 (Adequate):**  | Noticeable problems but salvageable | 60%                    |
+| **2 (Weak):**      | Mechanical or problematic           | 40%                    |
+| **1 (Poor):**      | Mostly fails category               | 20%                    |
+| **0 (Fail):**      | Completely absent or harmful        | 0%                     |
+
+Multiply the category’s max points by the percentage above to get that category’s score.
+Add all category scores for final out-of-100 score.
+
+---
+
+## What to Look For (Quick Decision Cues)
+
+### 1. Tone & Voice (20)
+
+* **Human-like:** warmth, personality, confidence, slight imperfection.
+* **Machine-like:** flat, relentlessly neutral, overly formal, templated slogans.
+  **Questions to ask:** Would I believe a human wrote this aloud? Does the voice fit the audience?
+
+### 2. Fluency & Flow (20)
+
+* **Human-like:** logical progression, natural transitions, conversational connectors.
+* **Machine-like:** abrupt shifts, repetitive linking phrases, robotic paragraphing.
+
+### 3. Authenticity & Expressiveness (20)
+
+* **Human-like:** small opinion cues, mild hedging (“in our experience”), concrete examples, occasional rhetorical question or aside.
+* **Machine-like:** no author presence, generic assertions, overuse of neutral qualifiers in the same pattern.
+
+### 4. Sentence Variety & Rhythm (15)
+
+* **Human-like:** mix of short and medium sentences, occasional longer sentence used purposefully.
+* **Machine-like:** uniform sentence lengths, repeated syntactic patterns, predictable lists.
+
+### 5. Clarity & Reader Friendliness (15)
+
+* **Human-like:** explains complex ideas simply, defines jargon on first use, uses examples or short analogies.
+* **Machine-like:** dense phrasing, circular explanations, unexplained acronyms.
+
+### 6. Accuracy & Contextual Fit (10)
+
+* **Human-like:** relevant, accurate references, context-aware phrasing for target readers (IT audience).
+* **Machine-like:** vague or context-agnostic statements, misplaced level of detail.
+
+---
+
+## Example Scoring (Brief)
+
+If
+Tone = 4 → 20 × 0.8 = 16 pts
+Fluency = 3 → 20 × 0.6 = 12 pts
+Authenticity = 2 → 20 × 0.4 = 8 pts
+Variety = 4 → 15 × 0.8 = 12 pts
+Clarity = 3 → 15 × 0.6 = 9 pts
+Accuracy = 5 → 10 × 1.0 = 10 pts
+
+**Total = 67 / 100**
+
+---
+
+## Minimum Pass / Guidance Thresholds
+
+* **≥ 85:** Human-grade: publishable with minor edits.
+* **70–84:** Mostly human; requires targeted rewrites (tone or flow).
+* **55–69:** Noticeable machine-ish elements; rewrite recommended.
+* **< 55:** Likely to be flagged as machine-like; major rewrite needed.
+
+---
+
+## Reviewer Output — Required Elements
+
+* Numeric score (0–100).
+* One-sentence summary (why this score).
+* 3–6 bullet highlights (what feels human and strong).
+* 3–6 bullet issues (precise examples of machine-like phrasing with line numbers or quotes).
+* 2–4 prioritized fixes (exact, actionable edits — e.g., “Replace passive sentences in paras 2–3 with active verbs; add one concrete example after sentence 4”).
+
+---
+
+### Example Feedback Template
+
+**Score:** 72/100
+**Summary:** Good flow and clarity, but several paragraphs feel formulaic and lack author voice.
+
+**Strengths:** clear examples in section B; appropriate technical level.
+**Problems (with quotes):** repetitive “This means that…” pattern (para 3); flat opening sentence.
+**Fixes:** vary sentence openings; add one personal aside or concrete use-case in the intro; break long paragraphs into bullets.
+
+---
+
+## Quick Checklist for Reviewers (Use Before Finalizing Score)
+
+* Is there an identifiable human authorial voice?
+* Do sentences vary in length and structure?
+* Are complex ideas explained with examples or steps?
+* Are there repeated machiney phrases or templates?
+* Is the tone appropriate for IT readers (simple English, respectful of expertise)?
+* Any factual errors or missing context?
+

@@ -1,0 +1,21 @@
+What do ChatGPT’s 700 million weekly active users do with it? OpenAI teamed up with a Harvard economist to find out.
+
+What’s new: ChatGPT users are turning to the chatbot increasingly for personal matters rather than work, and the gender balance of the user base is shifting, OpenAI found in a large-scale study. “How People Use ChatGPT,” a preliminary report published by the National Bureau of Economic Research, is available in return for an institutional email address.
+
+How it works: The study examined 1.58 million messages entered by users and drawn at random from over 1.1 million conversations between May 2024 and July 2025.
+
+The messages were written by logged-in users over 18 who used consumer-level (as opposed to business) subscriptions.
+The authors classified users by gender (based on names the authors deemed typically masculine, feminine, or indeterminate), self-reported age, and geography.
+They classified messages by topic, general intention (such as asking for information or requesting action), and specific task (such as writing or coding).
+Results: Most users of ChatGPT were young adults, and apparently more women are joining their ranks. Uses shifted from work to more personal tasks over the course of the study period. Writing and guidance were most popular uses, followed closely by seeking information.
+
+ChatGPT was most popular with users between 18 and 25 years old, who sent 46 percent of the messages. Users between 26 and 66 were more likely to use ChatGPT for work.
+Women may now outnumber men using ChatGPT. Messages from users with names classified as typically feminine increased from 37 percent in January 2024 to 52 percent by June 2025.
+Messages categorized as asking were more common than messages categorized as doing (requests for generated output such as plans, writing, or code) or expressing (such as idle conversation, reflection, or playing a role). The most common requests were for practical guidance (28.3 percent) or writing (28.1 percent), while seeking information was nearly as popular (21.3 percent).
+Uses of ChatGPT for personal matters rose. In June 2024, messages divided roughly equally between work and non-work uses. By July 2025, roughly 73 percent of them likely were not related to work. (Overall use grew during that time. The number of likely non-work messages increased by around 8 times, while the number of work-related messages increased by more than 3 times.)
+Among non-work uses, the most common were seeking information (24.4 percent) or practical guidance (28.8 percent). When ChatGPT was used for work, the most common use was writing, mostly requests to edit, critique, translate, or otherwise transform existing text rather than produce all-new text.
+Behind the news: OpenAI said its report is the largest study of chatbot usage undertaken to date, but its peers have published similar research. Anthropic released its third Economic Index, which analyzes consumer and business use of its Claude models. Anthropic’s study shows that Claude API users are much more likely to automate tasks than consumer users. Claude is used overwhelmingly for computational and mathematical tasks, but education, arts and media, and office and administrative support are steadily rising.
+
+Why it matters: In OpenAI’s study (and Anthropic’s), AI users and uses are becoming more diverse. The initial user of AI chatbots was disproportionately likely to be based in the U.S., highly educated, highly paid, male, young, and focused on technology. Nearly 3 years after ChatGPT’s introduction, they are far more varied, as are their wants, needs, and expectations.
+
+We’re thinking: Early on, it seemed as though large language models would be most useful for work. But people are using them to seek information and advice about personal matters, plan their lives, and express themselves. It turns out that we need more intelligence in our whole lives, not just at the office.

@@ -1,0 +1,52 @@
+The Orchestrator: managing a fleet of agents
+Most of us still pair with one AI at a time. The next step is dispatching several agents in parallel and reviewing their pull requests later. That is the shift an orchestrator brings.
+Why this matters now
+We have moved from autocomplete to agents that plan, edit, test, and open pull requests on their own. With an orchestrator, AI work runs in the background while we focus on design, integration, and quality. The promise is simple but not magic: delegate well so review time replaces long prompt loops.
+How the workflow runs
+An orchestrator sets the high‑level goal, defines tasks, and lets autonomous agents execute end to end. These agents clone the repo, create branches, change many files, run tests, and iterate before asking for review. Work happens in version control with Continuous Integration (CI), so it is logged, reviewable, and easy to revert.
+We do not watch every step. We care that the outcome matches the spec, passes tests, and fits the architecture. Because agents run asynchronously and often concurrently, three tasks dispatched before lunch can return as three PRs later in the day.
+Tools already working in orchestrator mode
+GitHub Copilot Coding Agent. For GitHub‑native teams, Copilot’s PR‑first flow fits the grain of issues and Actions. Assign an issue or start from VS Code; it spins up an ephemeral environment, checks out a branch, runs linters and tests, and opens a PR with clear commits. Review normally, or leave a comment like “@copilot update tests for edge case Z” and it will iterate on the same branch.
+Google’s Jules. Teams on Google Cloud may prefer Jules for its visible plans and “user steerability.” Connect a repo, request a task (“Upgrade to the latest Node.js and fix compat issues”), review the plan, then approve. Jules runs in a secure VM, commits on a new branch, and opens the PR. It can run several jobs in parallel and even produces audio changelogs for summaries.
+OpenAI’s cloud coding agent. OpenAI offers a hosted engineering agent that you can invoke from ChatGPT and editor integrations for async work, then switch back to real‑time pairing when needed. It edits in a sandboxed container, runs tests, and returns a diff or PR; some teams trigger tasks from mobile or Slack threads. Naming and availability change quickly; check the latest OpenAI docs before installing anything.
+Anthropic Claude Code for Web. When long jobs should not run on your laptop, the hosted version runs Claude Code in Anthropic’s managed container with filesystem and network isolation. Point it at a repo, grant sandbox permissions, and start a task. It executes queued steps, then pushes a branch or opens a PR. If you want to take over, “teleport” the session to local.
+Cursor Background Agents. Cursor 2.0 treats background agents like a small cloud workforce. It clones the repo into an ephemeral workspace and runs the full loop: edit, install, test, build, and even search docs. A live dashboard shows progress from desktop or mobile. Several agents can run at once—say, one on UI polish while another fixes flaky tests—each ending with a detailed PR.
+Platforms for running many agents
+Open‑source tools make multi‑agent setups feel local. Conductor by Melty Labs runs several Claude Code agents in parallel, each with an isolated Git worktree and a dashboard of “who’s doing what.” Juriy Zaytsev, Staff SWE at LinkedIn, noted that after he merged a PR, Conductor marked the task “Merged” and offered an Archive button—small, but it kept the loop tight. Claude Squad multiplexes Claude Code in separate tmux panes so you can split tasks across instances. On the cloud side, Azure’s agent tooling supports multiple specialized agents that can share context and talk to one another for complex flows.
+Conductor vs orchestrator: what actually changes
+Scope of control. A conductor guides one agent through a narrow task. An orchestrator sets broader objectives for several agents or one powerful agent that runs many steps.
+Degree of autonomy. In conductor mode, the agent waits for your next prompt. In orchestrator mode, it plans and executes dozens of steps before asking for feedback.
+Sync vs async. Conductor work is a tight loop. Orchestrator work is dispatch‑and‑review minutes or hours later.
+Artifacts and traceability. Orchestrators create branches, commits, and PRs tied to issues. There is a clear git trail. Chat‑style work often leaves less record unless you commit as you go.
+Human effort profile. Conductor time sits in the middle—prompt, review, repeat. Orchestrator time is front‑loaded (a good spec) and back‑loaded (review and merge), which scales across many tasks.
+A mini case from the field
+On Tuesday, we asked an agent to “add optimistic updates to the todo list,” with acceptance criteria and two edge cases. It proposed a plan, opened a branch, and submitted a PR in 22 minutes. CI flagged a failing test on rapid toggles; we commented with the failing seed and asked it to retry. The agent adjusted the debounce logic, pushed a fix, and the PR merged. In our pilots, time‑to‑PR dropped from 45 to 18 minutes (P95) for this class of change.
+Why orchestrators change our day
+Each wave in programming removed manual work: assembly to high‑level languages, frameworks, then AI in the editor. Autonomous coding agents are the next abstraction. In our pilots, small teams handed off 10+ PRs in a day during focused sprints, then spent their time on system design and integration. This is not universal yet, but the pattern is clear: agents draft more, humans decide, shape, and verify.
+Toward an “AI team” of specialists
+You can sketch a full flow with specialized agents coordinated by a human orchestrator:
+Planning Agent breaks a feature or bug into tasks
+Coding Agents implement the tasks
+Testing Agent writes and runs tests
+Code Review Agent checks PR quality and standards
+Documentation Agent updates READMEs and docs
+Deployment/Monitoring Agent ships and watches in prod
+Early signs are here: Azure’s building blocks for multi‑agent workflows, internal PR‑by‑agent loops with agent reviewers, and efforts like Model Context Protocol (MCP) so agents can share state.
+Challenges and the human role
+Quality and trust. You will not see every change as it happens. Keep humans as the final gate. Review PRs, write clear acceptance tests, and run security checks. Agents can be correct in syntax but wrong in design; build a trust model for when to accept, request changes, or stop and rethink.
+Coordination and conflicts. Many agents on one repo can collide. Today’s guardrails are isolation—one task per branch—plus task boundaries that reduce overlap. Some tools auto‑rebase, but humans still do the last mile. Agent‑to‑agent negotiation may help over time.
+Context and hand‑offs. Teams run on shared state: repo layout, build, tests, style rules, and release steps. Without a workflow layer that passes metadata and tags branches, seams will split. Invest in a central orchestration surface, even if it is lightweight at first.
+Prompts and specs. As agents write more code, our “code” becomes specs. Vague prompts drift. Write short design notes and acceptance criteria. Treat agents like contractors: define “done,” list edge cases, and pin constraints.
+Tooling and debugging. When an agent stalls or opens a failing PR, you debug the process: weak spec, wrong test, or the agent got lost. Checkpointing and rollback help. Dashboards show long jobs or errors. Expect to drop into conductor mode to fix a knot, then go back to orchestration.
+Ethics and responsibility. We still own what ships. That includes licenses, security, and bias. Run scans on generated code and pin safe dependencies. Some agents avoid known vulnerable versions and can run audits, but “trust, then verify” remains the rule.
+How to try it this week
+Pick one repo with CI and a medium‑size task you would give a junior.
+Write a crisp issue with acceptance criteria and edge cases.
+Assign it to a cloud agent that opens PRs; avoid babysitting.
+Review like any teammate’s PR; request one change; check the loop.
+Repeat with two tasks in parallel and measure your review time.
+Where this is going
+Many of us will work in both modes. You might queue an async agent for a feature and, the same afternoon, pair with a chat agent on a tricky algorithm. Junior engineers may start as conductors; seasoned engineers lean into orchestration. The tools—Copilot’s agent, Jules, OpenAI’s hosted agent, Claude Code for Web, Cursor—lower the barrier month by month.
+A note of caution: multi‑agent UX can feel clunky today, and product names change fast. Verify commands and versions in the docs before you install anything. Still, the direction is steady. As CI and automated tests became standard, continuous delegation is joining the stack.
+Closing thought
+We will still type, but alongside our keystrokes we will direct a small swarm of helpers. The future is not AI or human; it is AI and human—with humans at the helm. Start small this week: one well‑scoped task, one agent, one PR. Build the muscle to delegate, review, and integrate; the gains compound from there.
