@@ -1,0 +1,81 @@
+{{/* Get the header, arrow text, and style parameters from the shortcode parameters */}}
+{{ $header := .Get "header" }}
+{{ $arrowText := .Get "arrowText" | default "(کلیک کنید)" }}
+{{ $headerStyle := .Get "headerStyle" | default "" }}
+{{ $contentStyle := .Get "contentStyle" | default "" }}
+
+{{/* Generate a unique ID for this collapsible instance */}}
+{{ $id := (printf "collapsible-%s-%d" (.Page.File.BaseFileName) .Position.LineNumber) }}
+
+<div class="collapsible" id="{{ $id }}">
+  <div class="collapsible-header">
+    <span class="header-text">{{ $header }}</span>
+    <span class="arrow">{{ $arrowText }}</span>
+  </div>
+  <div class="collapsible-content">
+    <div class="content-inner">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Style the collapsible header */
+  #{{ $id }} .collapsible-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Style the header text with custom styles if provided */
+  #{{ $id }} .collapsible-header .header-text {
+    {{ with $headerStyle }}{{ . | safeCSS }}{{ end }}
+  }
+
+  /* Style the arrow icon */
+  #{{ $id }} .collapsible-header .arrow {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+  }
+
+  /* Add hover style to the arrow icon */
+  #{{ $id }} .collapsible-header:hover .arrow {
+    color: blue;
+  }
+
+  /* Style the collapsible content */
+  #{{ $id }} .collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  /* Custom style for the content inner div */
+  #{{ $id }} .collapsible-content .content-inner {
+    {{ with $contentStyle }}{{ . | safeCSS }}{{ end }}
+  }
+
+  /* When the content is open */
+  #{{ $id }} .collapsible-content.open {
+    max-height: 1000px;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector('#{{ $id }} .collapsible-header');
+    var content = document.querySelector('#{{ $id }} .collapsible-content');
+    var arrow = header.querySelector('.arrow');
+
+    header.addEventListener('click', function() {
+      if (content.classList.contains('open')) {
+        content.classList.remove('open');
+        arrow.classList.remove('expanded');
+      } else {
+        content.classList.add('open');
+        arrow.classList.add('expanded');
+      }
+    });
+  });
+</script>
