@@ -1,6 +1,6 @@
 ---
 title: "What ChatGPT Users Want"
-date: 2025-10-19T10:00:00+01:00
+date: 2025-06-19T10:00:00+01:00
 description: "People first reached for chatbots at work. A new, large study shows the center of gravity has moved to our personal lives, and fast."
 tags: ["ChatGPT", "Lifestyle", "GenAI"]
 type: "post"

@@ -1,6 +1,6 @@
 ---
 title: "The Orchestrator: Managing a Fleet of Agents"
-date: 2025-10-28T10:00:00+01:00
+date: 2025-09-28T10:00:00+01:00
 description: "Most of us still pair with one AI at a time. The next step is dispatching several agents in parallel and reviewing their pull requests later. That is the shift an orchestrator brings."
 tags: ["Orchestration", "Agentic AI", "GenAI", "LLM"]
 type: "post"
