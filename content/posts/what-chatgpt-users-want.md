@@ -5,6 +5,7 @@ description: "People first reached for chatbots at work. A new, large study show
 tags: ["ChatGPT", "Lifestyle", "GenAI"]
 type: "post"
 weight: 10
+image: "https://www.deeplearning.ai/_next/image/?url=https%3A%2F%2Fcharonhub.deeplearning.ai%2Fcontent%2Fimages%2F2025%2F09%2FWhat-ChatGPT-Users-Want-1.png&w=1920&q=75"
 showTableOfContents: true
 ---
 

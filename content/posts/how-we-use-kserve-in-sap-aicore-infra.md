@@ -5,6 +5,7 @@ description: "KServe and Knative provide a Kubernetes-native solution for reliab
 tags: ["Kubernetes", "KServe", "Knative", "ML", "AI"]
 type: "post"
 weight: 10
+image: "https://www.kubeflow.org/docs/components/kserve/pics/kserve-architecture.png"
 showTableOfContents: true
 ---
 

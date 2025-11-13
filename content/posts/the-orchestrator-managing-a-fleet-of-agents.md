@@ -5,6 +5,7 @@ description: "Most of us still pair with one AI at a time. The next step is disp
 tags: ["Orchestration", "Agentic AI", "GenAI", "LLM"]
 type: "post"
 weight: 10
+image: "https://substackcdn.com/image/fetch/$s_!xumY!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faeb45e5d-d4fd-4f87-b6cc-8e49d07b7830_1678x936.png"
 showTableOfContents: true
 ---
 
