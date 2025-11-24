@@ -33,7 +33,7 @@ def writer_do(prompt: str) -> str:
     """
     try:
         response = client.chat.completions.create(
-            model="gpt-5-mini",
+            model="gpt-5",
             messages=[
                 {"role": "developer", "content": Writer_SYSTEM_PROMPT},
                 {"role": "user", "content": prompt}
