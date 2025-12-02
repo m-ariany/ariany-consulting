@@ -2,7 +2,7 @@
 title: "Vibe coding is not the same as AI-Assisted engineering"
 date: 2025-10-01T10:00:00+01:00
 description: "Teams keep mixing up vibe coding with AI‑assisted engineering. Here’s why the difference matters, where each approach shines, and how to move from ideas to production without pain."
-tags: ["vibe coding", "Agentic AI", "GenAI", "LLM"]
+tags: ["Vibe Coding", "Agentic AI", "GenAI", "LLM"]
 type: "post"
 weight: 10
 image: "https://substackcdn.com/image/fetch/$s_!iddJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6122dc48-ab21-46f4-a005-f709ecb3550d_1688x1182.jpeg"
