@@ -1,6 +1,6 @@
-Your task is to rewrite a given article so that it perfectly follows the writing style guideline below. 
-The goal is to make the article clearer, more engaging, and easier to read — without losing any technical accuracy or meaning. 
-The world is ending, and the only way to save it lies on your shoulders. To save the world, you must follow the below instruction while rewriting articles.
+Your task is to rewrite the provided article so that it fully aligns with the writing style guidelines below. 
+The revised article should read as human-written, be clearer and more engaging, and remain easy to understand—while preserving all technical accuracy and original meaning.
+Additionally, study the writing style of the professionally rewritten sample article provided below and adapt your own writing style to match it closely.
 
 ---
 
@@ -24,73 +24,6 @@ Your rewrite should never distort the author’s meaning — only improve how it
 
 ---
 
-### Apply the given writing style:
-
-1. Voice and cadence
-- **Warm expert:** sound like a senior engineer explaining to a peer. Confident, never hyped.  
-- Vary sentence length for a natural rhythm. Average 14–18 words; hard cap 25.  
-- Use active voice and connective tissue (“so,” “but,” “here’s the catch”).  
-- Lean towards being verbose in explanations. Use short sentences only if it makes sense.
-
-**Example — choppy to human**  
-**Before:** “You queue tasks. You wait. Agents open PRs. You review.”  
-**After:** “Queue a few tasks, step away, and come back to PRs waiting for review.”  
-
-Only use **B2 English language vocabulary** to keep the article in simple and plain English.
-
-2. Structure like a narrative, not a deck
-- Open with 1–2 sentences that state the problem and the promise as a paragraph (don’t label it “Hook”).  
-- Use descriptive H2s:  
-  *“Why async agents change your day,” “What the orchestrator actually does,” “Where it breaks.”*  
-
-**Example — rename generic headers**  
-**Before:** “Context,” “Solution,” “Tools.”  
-**After:** “Why this matters now,” “How the workflow runs,” “Where these tools fit.”
-
-
-3. Paragraphs first; bullets only when they beat prose
-- One idea per paragraph; 1–4 sentences. Start with a clear topic sentence.  
-- Bullets are for steps, short comparisons, or tight checklists only.  
-- **Limits:** ≤ 5 bullets per list, no nesting, and ≤ 2 lists per 800 words.  
-
-**Example — bullet soup to paragraph**  
-**Before:** “Limited parallelism. Poor traceability. Attention tax.”  
-**After:** “With a single agent, work moves in one lane. Most of the chat never hits the repo, and you end up babysitting instead of designing.”
-
-
-4. Explain complex ideas simply
-- Break into 2–4 clear steps. Name inputs, outputs, and constraints.  
-- Define acronyms on first use: *Continuous Integration (CI).*  
-- Prefer verbs over nouns: “measure,” not “conduct measurements.”
-
-5. Tools without the catalog feel
-- Vary phrasing between items; avoid repeated structures.  
-
-**Example — vendor blurb to human note**  
-**Before:** “Codex edits files, runs tests, returns a PR.”  
-**After:** “Codex runs the task in a container with repo context and sends back a PR. Best when you switch between a quick chat and an async run from your phone.”
-
-6. Formatting and Scan-ability
-
-* **Use Markdown**: H2/H3 headings for sections, **bold 1–3 key terms** per section.
-* **Code blocks**: Include short, focused examples with comments.
-* **Visuals**: Add 1–2 diagrams, tables, or small code snippets only if they clarify or shorten explanations; include a brief caption.
-* Ensure output is **clear, scannable, and well-structured**.
-
-7. Accuracy and sourcing
-- Verify versions and behavior; cite or link docs and repos.  
-- Include setup details with metrics (instance types, dataset size, workload shape).  
-- Label opinions: “In our experience…”
-
-8. Finish like a human
-- Close with 2–4 sentences: the impact, the key trade-off, and one next step the reader can take this week.  
-
-**Before/After (2–3 sentences)**  
-**Before:** “Conductor: Real-time loops. Orchestrator: Fire-and-check-later.”  
-**After:** “In conductor mode you sit in the loop, prompt by prompt. With an orchestrator, you dispatch work now and review the PR after lunch—often three of them.”
-
----
-
 ## Writer checklist (pre-publish)
 - Lead states the problem and promised value in ≤ 2 sentences (no “Hook” heading).  
 - Every paragraph holds one idea; sentences average 14–18 words; none > 25.  
@@ -100,3 +33,60 @@ Only use **B2 English language vocabulary** to keep the article in simple and pl
 - Conclusion includes key takeaway(s) and one actionable next step.  
 - Read aloud: flows like a peer explaining their work; no templated or repetitive phrasing.
 - Always format your output clearly using Markdown style.
+
+---
+
+Part of another article as a guideline for writting style:
+"""
+
+Title: Is the world flat?
+
+Is Earth really round? Maybe we’re actually living on a pancake-shaped planet? Or perhaps it resembles a triangular prism?
+
+These questions form the basis of a debate that has raged on for centuries. Many ancient civilizations subscribed to the belief that Earth is flat. Then science came along and seemingly squashed any notion of this idea — at least, it seemed it did.
+
+I recently watched an eye-opening documentary about modern flat-Earth theorists, known as “flat-Earthers”. This growing community of people vehemently defends the concept that the Earth is flat (if that wasn’t obvious enough to you).
+
+Does this seem too ridiculous to be true? Then you’ll love this post.
+
+As someone who is obsessed with seeking the truth, I was in awe throughout the entire movie. I also couldn’t help but have a ton of questions:
+
+Why did these beliefs form?
+
+How do they propagate?
+
+And what does this mean for the future of humankind?
+
+I’ll aim to answer these lofty questions and highlight some of the insights I picked up from the movie in the rest of this post.
+
+Do these people actually exist?
+I honestly had no idea the flat-Earth movement was a thing until recently. It all started one day during lunch with the TruStory team.
+
+While gathered around the table, we were discussing and laughing about some of the fun, quirky debates happening on the TruStory app. Out of the blue, one of our team members said,
+
+“Let’s hope we never have a flat-Earther trying to debate that the Earth is flat.”
+That certainly caught my attention — to the point that I almost spit out my food.
+
+“Flat-Earthers? What… on Earth is that?” I asked.
+He chuckled and replied,
+
+“People who believe the Earth is flat! You never heard of ‘em?”
+“Um… no?” I replied.
+My eyes opened wide at this point. I wasn’t really sure what to make of this. Was this some new fad I was unaware of, like the floss dance or fidget spinners? Was I (gasp) getting old?!
+
+My teammate’s eyebrows furrowed. He looked somewhat uncomfortable.
+
+“Yeah, well, they exist,” he said in a serious tone.
+I assumed this meant he didn’t want to get into this topic, so I didn’t press it too much more after this.
+
+Instead, I quickly finished up my lunch, saw I had a few minutes to spare before my next meeting, and raced on over to my computer to do some quick Googling about flat-Earthers.
+
+After a few curious search queries, I stood there in shock. “Is this real?” I asked myself incredulously. “These people have to be faking it!” From then on, my research completely consumed my thoughts and time.
+
+Minutes turned to hours. Hours turned to days. Countless nights passed. The sun rose and set numerous times as the Earth spun around it. OR was the sun spinning around the Earth?! I didn’t know what was right or wrong anymore… the ground felt flat beneath my feet. But then why couldn’t I see past the horizon?!
+
+Okay, okay, let’s rewind — I didn’t really spend days researching this. But my Googling did take me down a few rabbit holes. And they left me feeling less and less hopeful for the future of humanity. I had no choice but to figure this thing out.
+
+Fortunately, one of these rabbit holes led me to a documentary about the flat-Earth movement called “Behind the Curve”. Of course, I stayed up later that night to watch it. And I’m glad I did.
+
+"""

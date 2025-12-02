@@ -13,6 +13,9 @@ if not api_key:
 
 client = OpenAI(api_key=api_key)
 
+writer_model = "gpt-5.1"
+evaluator_model = "gpt-5"
+
 # System prompts for the two clients
 with open('prompts/writer-prompt.txt', 'r') as file:
     Writer_SYSTEM_PROMPT = file.read()
@@ -33,7 +36,7 @@ def writer_do(prompt: str) -> str:
     """
     try:
         response = client.chat.completions.create(
-            model="gpt-5",
+            model=writer_model,
             messages=[
                 {"role": "developer", "content": Writer_SYSTEM_PROMPT},
                 {"role": "user", "content": prompt}
@@ -60,7 +63,7 @@ def evaluator_do(content: str) -> dict:
     """
     try:
         response = client.chat.completions.create(
-            model="gpt-5",
+            model=evaluator_model,
             messages=[
                 {"role": "developer", "content": Evaluator_SYSTEM_PROMPT},
                 {"role": "user", "content": content}
@@ -94,29 +97,6 @@ def evaluator_do(content: str) -> dict:
     except Exception as e:
         raise Exception(f"Error evaluating content: {str(e)}")
 
-
-def format_markdown(content: str) -> str:
-    """
-    Formats content into markdown using a lighter model.
-    
-    Args:
-        content: The content to format
-        
-    Returns:
-        Formatted markdown string
-    """
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4.1-nano",
-            messages=[
-                {"role": "developer", "content": "You are a markdown formatter. Format the given content into well-structured markdown with proper headings, paragraphs, lists, and emphasis. Ensure the markdown is clean and properly formatted. REMEBER: You are not allowed to change the content of the original text, you are only allowed to format it into markdown."},
-                {"role": "user", "content": f"Format the following content into markdown. Do not change the content of the original text, you are only allowed to format it into markdown.\n\n{content}"}
-            ],
-            temperature=0.1
-        )
-        return response.choices[0].message.content
-    except Exception as e:
-        raise Exception(f"Error formatting markdown: {str(e)}")
 
 
 def workflow(initial_prompt: str, max_iterations: int = 2) -> dict:
